@@ -42,7 +42,7 @@ for i, app in enumerate(apps):
             st.subheader(app['name'])
             st.markdown(f"<p style='color: #888; font-size: 14px;'>{app['description']}</p>", unsafe_allow_html=True)
             st.markdown("---")  # 구분선
-            st.link_button("대시보드 바로가기", app['url'])
+            st.link_button("링크 바로가기", app['url'])
 
 # --- Footer ---
 st.markdown("---")
