@@ -19,3 +19,7 @@ apps:
   - name: Sales-Refund-Manual-Entries
     description: 계정별원장에서 수기입력 전표내역(매출환입, 용역매출 등)을 추출할 수 있는 페이지입니다.
     url: https://sales-refund-manual-entries-upchem.streamlit.app/
+
+  - name: Multiple-Excel-File-Merger
+    description: 여러 개의 엑셀 파일을 하나의 파일로 병합할 수 있는 페이지입니다.
+    url: https://multiple-excel-file-merger-upchem.streamlit.app/
