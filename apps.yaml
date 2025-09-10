@@ -23,3 +23,7 @@ apps:
   - name: Multiple-Excel-File-Merger
     description: 여러 개의 엑셀 파일을 하나의 파일로 병합할 수 있는 페이지입니다.
     url: https://multiple-excel-file-merger-upchem.streamlit.app/
+
+  - name: Export-Declaration-OCR-Text-Extractor
+    description: 수출신고필증의 주요 텍스트를 추출합니다(OCR).
+    url: https://export-declaration-ocr-text-upchem.streamlit.app/
