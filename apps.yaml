@@ -27,3 +27,8 @@ apps:
   - name: Export-Declaration-OCR-Text-Extractor
     description: 수출신고필증의 주요 텍스트를 추출합니다(OCR).
     url: https://export-declaration-ocr-text-upchem.streamlit.app/
+
+  - name: Expense-Budget-Merge-Tool
+    description: 경비예산 엑셀 파일을 ERP 업로드 형태로 변환합니다.
+    url: https://mergeup.streamlit.app/
+   
