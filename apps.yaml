@@ -32,6 +32,6 @@ apps:
     description: 경비예산 엑셀 파일을 ERP 업로드 형태로 변환합니다.
     url: https://mergeup.streamlit.app/
 
-  - name: derivatives-dashboard
+  - name: Derivatives-Dashboard
     description: 파생상품 손익효과를 분석하는 페이지입니다.
     url: https://derivatives-dashboard.streamlit.app/
