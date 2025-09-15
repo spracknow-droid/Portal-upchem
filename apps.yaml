@@ -35,3 +35,7 @@ apps:
   - name: Derivatives-Dashboard
     description: 파생상품 손익효과를 분석하는 페이지입니다.
     url: https://derivatives-dashboard.streamlit.app/
+
+  - name: Logbook-for-Business-Use-Passenger-Vehicle
+    description: 업무용승용차 운행기록부를 자동으로 생성합니다.
+    url: https://logbook-for-business-use-passenger-vehicle-upchem.streamlit.app/
