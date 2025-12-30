@@ -39,3 +39,8 @@ apps:
   - name: Logbook-for-Business-Use-Passenger-Vehicle
     description: 업무용승용차 운행기록부를 자동으로 생성합니다.
     url: https://logbook-for-business-use-passenger-vehicle-upchem.streamlit.app/
+
+  - name: Stock-Report-Converter
+    description: 원가수불부를 재고실사 양식의 형태로 자동 변환합니다.
+    url: https://stock-report-converter-upchem.streamlit.app/
+    
