@@ -43,4 +43,10 @@ apps:
   - name: Stock-Report-Converter
     description: 원가수불부를 재고실사 양식의 형태로 자동 변환합니다.
     url: https://stock-report-converter-upchem.streamlit.app/
+
+  - name: Excel-to-DB
+    description: 판매데이터(계획/실적)를 DB에 통합하는 페이지입니다.
+    url: https://excel-to-db.streamlit.app/
+
+    
     
