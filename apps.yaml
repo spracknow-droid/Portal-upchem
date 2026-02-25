@@ -7,10 +7,6 @@ apps:
   - name: AR-Aging-Dashboard
     description: 매출채권 연령현황을 분석하는 대시보드입니다.
     url: https://ar-aging-dashboard-upchem.streamlit.app/
-  
-  - name: Sales-Dashboard
-    description: 기간별, 거래처별, 제품별, 국가별 영업 성과를 분석하여 인사이트를 제공합니다.
-    url: https://sales-dashboard-upchem.streamlit.app/
     
   - name: PO-Progress-Status
     description: 구매발주진행현황을 토대로 고정자산/소모품/수선비를 검토하는 페이지입니다.
