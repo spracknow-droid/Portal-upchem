@@ -44,6 +44,10 @@ apps:
     description: 판매 데이터(계획/실적)를 SQLite DB에 통합하는 페이지입니다.
     url: https://excel-to-db.streamlit.app/
 
+  - name: Integrated-Sales-View
+    description: 판매 데이터 분석에 용이한 View Table을 생성합니다.
+    url: https://integrated-sales-view-upchem.streamlit.app/
+
   - name: Inventory-Ledger-by-Period
     description: 원가수불부를 통하여 기간별 재무제표를 증감분석할 수 있는 페이지입니다.
     url: https://inventory-ledger-by-period-upchem.streamlit.app/
