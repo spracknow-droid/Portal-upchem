@@ -1,56 +1,65 @@
-# apps.yaml
 apps:
   - name: Cashflow-Dashboard
+    category: "📊 대시보드 및 분석"
     description: 계정별원장의 현금 증감을 토대로 수입/지출 내역을 분석합니다.
     url: https://cashflow-dashboard-upchem.streamlit.app/
   
   - name: AR-Aging-Dashboard
+    category: "📊 대시보드 및 분석"
     description: 매출채권 연령현황을 분석하는 대시보드입니다.
     url: https://ar-aging-dashboard-upchem.streamlit.app/
     
   - name: PO-Progress-Status
+    category: "🔎 전표 및 현황 검토"
     description: 구매발주진행현황을 토대로 고정자산/소모품/수선비를 검토하는 페이지입니다.
     url: https://po-progress-status-upchem.streamlit.app/
     
   - name: Sales-Refund-Manual-Entries
+    category: "🔎 전표 및 현황 검토"
     description: 계정별원장에서 수기입력 전표내역(매출환입, 용역매출 등)을 추출할 수 있는 페이지입니다.
     url: https://sales-refund-manual-entries-upchem.streamlit.app/
 
   - name: Multiple-Excel-File-Merger
+    category: "🛠️ 데이터 변환 도구"
     description: 여러 개의 엑셀 파일을 하나의 파일로 병합할 수 있는 페이지입니다.
     url: https://multiple-excel-file-merger-upchem.streamlit.app/
 
   - name: Export-Declaration-OCR-Text-Extractor
+    category: "📄 증빙 및 자동화"
     description: 수출신고필증의 주요 텍스트를 추출합니다(OCR).
     url: https://export-declaration-ocr-text-upchem.streamlit.app/
 
   - name: Expense-Budget-Merge-Tool
+    category: "🛠️ 데이터 변환 도구"
     description: 경비예산 엑셀 파일을 ERP 업로드 형태로 변환합니다.
     url: https://mergeup.streamlit.app/
 
   - name: Derivatives-Dashboard
+    category: "📊 대시보드 및 분석"
     description: 파생상품 손익효과를 분석하는 페이지입니다.
     url: https://derivatives-dashboard.streamlit.app/
 
   - name: Logbook-for-Business-Use-Passenger-Vehicle
+    category: "📄 증빙 및 자동화"
     description: 업무용승용차 운행기록부를 자동으로 생성합니다.
     url: https://logbook-for-business-use-passenger-vehicle-upchem.streamlit.app/
 
   - name: Stock-Report-Converter
+    category: "🛠️ 데이터 변환 도구"
     description: 원가수불부를 재고실사 양식의 형태로 자동 변환합니다.
     url: https://stock-report-converter-upchem.streamlit.app/
 
   - name: Excel-to-DB
+    category: "🛠️ 데이터 변환 도구"
     description: 판매 데이터(계획/실적)를 SQLite DB에 통합하는 페이지입니다.
     url: https://excel-to-db.streamlit.app/
 
   - name: Integrated-Sales-View
+    category: "📊 대시보드 및 분석"
     description: 판매 데이터 분석에 용이한 View Table을 생성합니다.
     url: https://integrated-sales-view-upchem.streamlit.app/
 
   - name: Inventory-Ledger-by-Period
+    category: "🔎 전표 및 현황 검토"
     description: 원가수불부를 통하여 기간별 재무제표를 증감분석할 수 있는 페이지입니다.
     url: https://inventory-ledger-by-period-upchem.streamlit.app/
-
-    
-    
