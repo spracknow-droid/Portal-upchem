@@ -8,6 +8,17 @@ st.set_page_config(
     layout="wide",
 )
 
+# --- 스타일 설정 (카드 높이 균형을 위한 간단한 CSS) ---
+st.markdown("""
+    <style>
+    [data-testid="stVerticalBlock"] > div:contains("바로가기") {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 # --- 포털 페이지 제목 및 부제 ---
 st.title("📊 Finance Team App Portal")
 st.markdown("회사 실무에 유용한 App을 한눈에 확인하고, 필요한 페이지에 빠르게 접근하세요.")
@@ -27,22 +38,54 @@ def load_apps_from_yaml(file_path):
 
 apps = load_apps_from_yaml('apps.yaml')
 
-# --- 앱 목록을 카드 형태로 표시 ---
-st.header("앱 목록")
+# --- 앱 목록 영역 ---
+if apps:
+    # 1. 카테고리 추출 및 '전체' 추가
+    # category 키가 없는 경우를 대비해 .get() 사용
+    unique_categories = sorted(list(set(app.get('category', '기타') for app in apps)))
+    categories = ["전체"] + unique_categories
 
-# 컬럼 레이아웃 설정 (한 줄에 3개씩 표시)
-num_columns = 3
-columns = st.columns(num_columns)
+    # 2. 탭 생성
+    tabs = st.tabs(categories)
 
-for i, app in enumerate(apps):
-    # 현재 앱이 위치할 컬럼 선택
-    with columns[i % num_columns]:
-        # 카드 디자인 (컨테이너 사용)
-        with st.container(border=True):
-            st.subheader(app['name'])
-            st.markdown(f"<p style='color: #888; font-size: 14px;'>{app['description']}</p>", unsafe_allow_html=True)
-            st.markdown("---")  # 구분선
-            st.link_button("링크 바로가기", app['url'])
+    # 3. 각 탭별로 콘텐츠 구성
+    for idx, tab in enumerate(tabs):
+        with tab:
+            current_category = categories[idx]
+            
+            # 필터링 로직
+            if current_category == "전체":
+                display_apps = apps
+            else:
+                display_apps = [app for app in apps if app.get('category', '기타') == current_category]
+            
+            # 컬럼 레이아웃 설정 (한 줄에 3개씩)
+            num_columns = 3
+            cols = st.columns(num_columns)
+
+            for i, app in enumerate(display_apps):
+                with cols[i % num_columns]:
+                    # 카드 디자인 (컨테이너 사용)
+                    with st.container(border=True):
+                        # 전체 탭일 때만 카테고리 뱃지 표시
+                        if current_category == "전체":
+                            st.caption(f"📁 {app.get('category', '기타')}")
+                        
+                        st.subheader(app['name'])
+                        
+                        # 설명 부분 (최소 높이를 주어 카드 크기를 일정하게 유지)
+                        st.markdown(f"""
+                            <div style="min-height: 60px;">
+                                <p style="color: #888; font-size: 14px; line-height: 1.5;">
+                                    {app['description']}
+                                </p>
+                            </div>
+                            """, unsafe_allow_html=True)
+                        
+                        st.divider() # 구분선
+                        
+                        # 버튼을 컨테이너 너비에 맞춤
+                        st.link_button(f"링크 바로가기", app['url'], use_container_width=True)
 
 # --- Footer ---
 st.markdown("---")
