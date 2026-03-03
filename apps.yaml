@@ -71,6 +71,6 @@ apps:
 
 
   - name: SQLite-DB-Merger
-    category: "🗄️ SQLite DB Merger"
+    category: "🗄️ SQLite DB 관리"
     description: 서로 다른 SQLite DB 파일을 하나로 병합할 수 있는 페이지입니다.
     url: https://db-merger-upchem.streamlit.app/
