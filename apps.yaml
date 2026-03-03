@@ -63,3 +63,8 @@ apps:
     category: "🔎 전표 및 현황 검토"
     description: 원가수불부를 통하여 기간별 재무제표를 증감분석할 수 있는 페이지입니다.
     url: https://inventory-ledger-by-period-upchem.streamlit.app/
+
+  - name: SQLite-Viewer
+    category: "🔎 전표 및 현황 검토"
+    description: SQLite 파일의 테이블과 뷰 화면을 볼 수 있는 페이지입니다.
+    url: https://app-viewer-upchem.streamlit.app/
