@@ -67,7 +67,7 @@ apps:
   - name: SQLite-Viewer
     category: "🗄️ SQLite DB 관리"
     description: SQLite 파일의 테이블과 뷰 화면을 볼 수 있는 페이지입니다.
-    url: https://app-viewer-upchem.streamlit.app/
+    url: https://db-viewer-upchem.streamlit.app/
 
 
   - name: SQLite-DB-Merger
