@@ -50,13 +50,13 @@ apps:
     url: https://stock-report-converter-upchem.streamlit.app/
 
   - name: Excel-to-DB
-    category: "🛠️ 데이터 변환 도구"
+    category: "🗄️ SQLite DB 관리"
     description: 판매 데이터(계획/실적)를 SQLite DB에 통합하는 페이지입니다.
     url: https://excel-to-db.streamlit.app/
 
   - name: Integrated-Sales-View
-    category: "📊 대시보드 및 분석"
-    description: 판매 데이터 분석에 용이한 View Table을 생성합니다.
+    category: "🗄️ SQLite DB 관리"
+    description: 판매 데이터 분석에 용이한 SQLite View Table을 생성합니다.
     url: https://integrated-sales-view-upchem.streamlit.app/
 
   - name: Inventory-Ledger-by-Period
@@ -65,6 +65,6 @@ apps:
     url: https://inventory-ledger-by-period-upchem.streamlit.app/
 
   - name: SQLite-Viewer
-    category: "🔎 전표 및 현황 검토"
+    category: "🗄️ SQLite DB 관리"
     description: SQLite 파일의 테이블과 뷰 화면을 볼 수 있는 페이지입니다.
     url: https://app-viewer-upchem.streamlit.app/
