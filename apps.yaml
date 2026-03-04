@@ -56,7 +56,7 @@ apps:
 
   - name: Integrated-Sales-View
     category: "🗄️ SQLite DB 관리"
-    description: 판매 데이터 분석에 용이한 SQLite View Table을 생성합니다.
+    description: 판매 데이터를 통합하여 SQLite View를 생성합니다.
     url: https://integrated-sales-view-upchem.streamlit.app/
 
   - name: Inventory-Ledger-by-Period
