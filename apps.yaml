@@ -51,7 +51,7 @@ apps:
 
   - name: Excel-to-DB
     category: "🗄️ SQLite DB 관리"
-    description: 매출리스트, 판매계획, 수출통관내역(xlsx)을 SQLite DB로 업데이트하는 페이지입니다.
+    description: 매출리스트, 판매계획(xlsx)을 SQLite DB로 업데이트하는 페이지입니다.
     url: https://excel-to-db.streamlit.app/
 
   - name: Integrated-Sales-View
