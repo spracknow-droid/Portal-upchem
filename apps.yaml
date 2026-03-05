@@ -76,5 +76,5 @@ apps:
 
   - name: View-Sales-Variance-Analysis
     category: "🗄️ SQLite DB 관리"
-    description: 사용자가 업로드한 SQLite DB로 판매분석에 용이한 View를 생성합니다.
+    description: 판매분석(매출차이)에 용이한 View를 생성합니다.
     url: https://view-sales-variance-analysis-upchem.streamlit.app/
