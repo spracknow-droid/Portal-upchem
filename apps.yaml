@@ -49,10 +49,10 @@ apps:
     description: 원가수불부를 재고실사 양식의 형태로 자동 변환합니다.
     url: https://stock-report-converter-upchem.streamlit.app/
 
-  - name: Excel-to-DB-v2
+  - name: Excel-to-DB
     category: "🗄️ SQLite DB 관리"
     description: 매출리스트, 판매계획, 수출통관내역(xlsx)을 SQLite DB로 업데이트하는 페이지입니다.
-    url: https://excel-to-db-v2-upchem.streamlit.app/
+    url: https://excel-to-db.streamlit.app/
 
   - name: Integrated-Sales-View
     category: "🗄️ SQLite DB 관리"
