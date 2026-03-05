@@ -49,16 +49,6 @@ apps:
     description: 원가수불부를 재고실사 양식의 형태로 자동 변환합니다.
     url: https://stock-report-converter-upchem.streamlit.app/
 
-  - name: Excel-to-DB
-    category: "🗄️ SQLite DB 관리"
-    description: 매출리스트, 판매계획(xlsx)을 SQLite DB로 업데이트하는 페이지입니다.
-    url: https://excel-to-db.streamlit.app/
-
-  - name: Integrated-Sales-View
-    category: "🗄️ SQLite DB 관리"
-    description: 매출리스트, 판매계획, 거래처 마스터를 통합하여 View를 생성합니다.
-    url: https://integrated-sales-view-upchem.streamlit.app/
-
   - name: Inventory-Ledger-by-Period
     category: "🔎 전표 및 현황 검토"
     description: 원가수불부를 통하여 기간별 재무제표를 증감분석할 수 있는 페이지입니다.
@@ -73,6 +63,17 @@ apps:
     category: "🗄️ SQLite DB 관리"
     description: 서로 다른 SQLite DB 파일을 하나로 병합할 수 있는 페이지입니다.
     url: https://db-merger-upchem.streamlit.app/
+
+  - name: Excel-to-DB
+    category: "🗄️ SQLite DB 관리"
+    description: 매출리스트, 판매계획(xlsx)을 SQLite DB로 업데이트하는 페이지입니다.
+    url: https://excel-to-db.streamlit.app/
+
+  - name: Integrated-Sales-View
+    category: "🗄️ SQLite DB 관리"
+    description: 매출리스트, 판매계획, 거래처 마스터를 통합하여 View를 생성합니다.
+    url: https://integrated-sales-view-upchem.streamlit.app/
+
 
   - name: View-Sales-Variance-Analysis
     category: "🗄️ SQLite DB 관리"
