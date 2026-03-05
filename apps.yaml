@@ -69,8 +69,12 @@ apps:
     description: SQLite 파일의 테이블과 뷰 화면을 볼 수 있는 페이지입니다.
     url: https://db-viewer-upchem.streamlit.app/
 
-
   - name: SQLite-DB-Merger
     category: "🗄️ SQLite DB 관리"
     description: 서로 다른 SQLite DB 파일을 하나로 병합할 수 있는 페이지입니다.
     url: https://db-merger-upchem.streamlit.app/
+
+  - name: View-Sales-Variance-Analysis
+    category: "🗄️ SQLite DB 관리"
+    description: 사용자가 업로드한 SQLite DB로 판매분석에 용이한 View를 생성할 수 있는 페이지입니다.
+    url: https://view-sales-variance-analysis-upchem.streamlit.app/
