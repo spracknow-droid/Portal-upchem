@@ -74,11 +74,6 @@ apps:
     description: SQLite DB 내 불필요한 테이블(Table) 또는 뷰(View)를 삭제합니다.
     url: https://db-deleter-upchem.streamlit.app/
 
-  - name: Sales-to-DB
-    category: "🗄️ SQLite DB 관리"
-    description: 매출리스트, 판매계획(xlsx)을 SQLite DB로 업데이트하는 페이지입니다.
-    url: https://sales-to-db.streamlit.app/
-
   - name: Integrated-Sales-View
     category: "🗄️ SQLite DB 관리"
     description: 매출리스트, 판매계획, 거래처 마스터를 통합하여 View를 생성합니다.
