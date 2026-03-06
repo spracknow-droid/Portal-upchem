@@ -59,11 +59,6 @@ apps:
     description: SQLite 파일의 테이블과 뷰 화면을 볼 수 있는 페이지입니다.
     url: https://db-viewer-upchem.streamlit.app/
     
-  - name: Safe-Excel-to-SQLite
-    category: "🗄️ SQLite DB 관리"
-    description: 데이터 무결성이 보장되는 SQLite 테이블 생성 페이지입니다.
-    url: https://safe-excel-to-db-upchem.streamlit.app/
-
   - name: SQLite-DB-Merger
     category: "🗄️ SQLite DB 관리"
     description: 서로 다른 SQLite DB 파일을 하나로 병합할 수 있는 페이지입니다.
